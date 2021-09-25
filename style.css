@@ -1,0 +1,142 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('man-2604149_1920.jpg');
+    font-family: 'Stick No Bills', sans-serif;
+    font-weight: bold;
+
+
+}
+
+.left {
+    display: inline-block;
+   /* border: 2px solid red; */
+    position: absolute;
+    left: 34px;
+    top: 18px;
+    width: 120px;
+    height: 100px;
+    font-size: 20px;
+    line-height: 4px;
+
+}
+
+.right {
+    display: inline-block;
+    /*border: 2px solid blue; */
+    position: absolute;
+    right: 34px;
+    top: 18px;
+}
+
+.mid {
+    display: block;
+   /* border: 2px solid yellow; */
+    position: absolute;
+    left: 35%;
+    top: 18px;
+    width: 33%;
+    
+}
+
+.navbar {
+    display: inline-block;
+    
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.navbar li a  {
+    color: white;
+    text-decoration: none;
+    padding: 12px 12px;
+    
+}
+
+.navbar li a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.left div {
+    text-align: center;
+}
+
+.left img {
+    width: 100px;
+    filter: invert(100%);
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Stick No Bills', sans-serif;
+    font-weight: bold;
+
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.navr {
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 7px;
+    padding-left: 50px;
+    
+}
+
+.navr li {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.navr li a  {
+    color: white;
+    text-decoration: none;
+    padding: 12px 12px;
+    
+}
+
+.navr li a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 81px 2px;
+    padding: 75%;
+    width: 250px;
+    border-radius: 33px;
+    padding-top: 27px;
+
+
+}
+
+.form input {
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 2px 2px;
+    margin: 6px auto;
+    text-align: center;
+    width: 200px;
+}
+
+.container button {
+    display: block;
+    width: 230px;
+    margin-top: 13px;
+}
